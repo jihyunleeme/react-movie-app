@@ -13,12 +13,14 @@ module.exports = {
         "ecmaFeatures": {
             "jsx": false
         },
-        "ecmaVersion": 12,
+        "ecmaVersion": 6,
         "sourceType": "module"
 },
 "plugins": [
     "react"
 ],
-"rules": {
-    }
+rules: {
+    indent: ['error', 2],
+    'prettier/prettier': ['error', { tabWidth: 2 }],
+  },
 };
