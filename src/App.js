@@ -5,9 +5,9 @@ import About from "./routes/About";
 
 function App() {
   return <HashRouter>
-      <Route path="/" exact component={Home} />
-      <Route path="/about" exact component={About} />
-    </HashRouter>
+    <Route path="/" exact component={Home} />
+    <Route path="/about" exact component={About} />
+  </HashRouter>
 }
 
 export default App;
